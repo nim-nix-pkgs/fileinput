@@ -11,7 +11,6 @@
   inputs.src-fileinput-master.ref   = "refs/heads/master";
   inputs.src-fileinput-master.owner = "achesak";
   inputs.src-fileinput-master.repo  = "nim-fileinput";
-  inputs.src-fileinput-master.dir   = "";
   inputs.src-fileinput-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
